@@ -8,7 +8,7 @@ This is an experimental project, trying to rewrite diffusion model purely by bas
 
 ### train with python
 
-you can train the tiny diffusion model in minutes, just run 
+For fast experiment, I used a very tiny model. you can train the tiny model in minutes just by running 
 
 ```
 pip install -r requirement.txt
@@ -16,7 +16,6 @@ python train.py
 ```
 
 After training, you will get a binary model file `ckpt.bin` in the `weights` folder.
-
 
 ### inference with c
 
