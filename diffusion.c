@@ -1167,7 +1167,7 @@ int main() {
             break;
     }
 //    time_t start = time(NULL);
-//    infer();
+    infer();
 
 
 //    time_t end = time(NULL);

@@ -2,13 +2,13 @@
 
 This is a standalone inference engine of diffusion models written in C. You can train the tiny diffusion model in pytorch, then run the model with diffusion.c.
 
-![tinydiffusion](./tinydiffusion.gif)
+![tiny diffusion](./tinydiffusion.gif)
 
-This is an exprimental project, trying to rewrite diffusion model purely by basic operations in C without any "black boxes". The meat of this project was writing the C inference engine in [diffusion.c](diffusion.c).
+This is an experimental project, trying to rewrite diffusion model purely by basic operations in C without any "black boxes". The meat of this project was writing the C inference engine in [diffusion.c](diffusion.c).
 
 ### train with python
 
-you can train the tiny diffusion model in minutes, just by run 
+you can train the tiny diffusion model in minutes, just run 
 
 ```
 pip install -r requirement.txt
@@ -20,16 +20,18 @@ After training, you will get a binary model file `ckpt.bin` in the `weights` fol
 
 ### inference with c
 
-compile diffusion.c in linux:
+compile diffusion.c with:
 
 ```
 gcc -O3 -o diffusion diffusion.c -lm
 ```
 
-run the inference code, simple by executing
+deploy the inference code, simply run
 ```
 ./diffusion
 ```
+
+![screenshot](doc/input.jpg)
 
 ### Acknowledgement
 
