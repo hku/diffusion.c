@@ -36,3 +36,7 @@ deploy the inference code, simply run
 
 The training code is adapted from [minDiffusion](https://github.com/cloneofsimo/minDiffusion)
 and [the deeplearning course](https://www.deeplearning.ai/short-courses/how-diffusion-models-work)
+
+### Contact
+
+If you have any questions, feel free to reach out to [me](https://twitter.com/RayWong48889131).
